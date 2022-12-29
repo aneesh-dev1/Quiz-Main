@@ -80,7 +80,7 @@ const QuizDescription = () => {
               api
                 .get(`/student/getAllQuestion/${id}`, {})
                 .then((res) => {
-                  navigate(`/quiz/${location.state.quizname}/${location.state.id}`,{
+                  navigate(`/Quiz-Main/quiz/${location.state.quizname}/${location.state.id}`,{
                     state:{
                       quiz:{
                         id: location.state.id,

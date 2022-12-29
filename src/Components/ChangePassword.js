@@ -69,7 +69,7 @@ const ChangePassword = () => {
         <Card.Title style={{marginBottom:"3rem",overflowY:"hidden"}}>Forgot Password?</Card.Title>
         <Card.Subtitle className=" text-muted" style={{marginBottom:"1rem",width:"100%",display:"flex",justifyContent:"center",overflowY:"hidden"}}>Password sent successfully...</Card.Subtitle>
           
-        <div className="button" style={{width:"100%",display:"flex",justifyContent:"center"}}><Button variant="secondary" onClick={() => navigate("/otp")}>Enter otp</Button></div>
+        <div className="button" style={{width:"100%",display:"flex",justifyContent:"center"}}><Button variant="secondary" onClick={() => navigate("/Quiz-Main/otp")}>Enter otp</Button></div>
       </Card.Body>
       }
 

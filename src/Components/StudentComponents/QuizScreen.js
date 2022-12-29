@@ -46,7 +46,7 @@ const QuizScreen = () => {
     setSubmit(true)
     setTimeout(() => {
       screenfull.exit()
-      navigate(`/student/${localStorage.getItem("id")}`)
+      navigate(`/Quiz-Main/student/${localStorage.getItem("id")}`)
     },3000)
   
   };

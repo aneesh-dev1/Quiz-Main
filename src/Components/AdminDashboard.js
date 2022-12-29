@@ -14,27 +14,27 @@ const AdminDashboard = () => {
           <div className="rightContainer" style={{width:"40%",display:"flex",justifyContent:"center",alignItems:"center"}}>
           <ListGroup>
             
-      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/admin/seeAllStudents")}>
+      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/Quiz-Main/admin/seeAllStudents")}>
         See All Students
       </ListGroup.Item>
-      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/admin/seeAllTeachers")}>
+      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/Quiz-Main/admin/seeAllTeachers")}>
         See All Teachers
       </ListGroup.Item>
-      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/admin/blockStudent")}>
+      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/Quiz-Main/admin/blockStudent")}>
         Block Student 
       </ListGroup.Item>
-      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/admin/unblockStudent")}>
+      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/Quiz-Main/admin/unblockStudent")}>
         Unblock Student
       </ListGroup.Item>
       
       
-      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/admin/blockTeacher")}>
+      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/Quiz-Main/admin/blockTeacher")}>
         Block Teacher 
       </ListGroup.Item>
-      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/admin/unblockTeacher")}>
+      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/Quiz-Main/admin/unblockTeacher")}>
         Unblock Teacher
       </ListGroup.Item>
-      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/admin/seeAllQuizes")}>
+      <ListGroup.Item action variant="light" style={{marginBottom:"1rem"}} onClick={() => navigate("/Quiz-Main/admin/seeAllQuizes")}>
         All Quizes
       </ListGroup.Item>
      

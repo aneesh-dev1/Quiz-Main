@@ -34,7 +34,7 @@ function StudSubNav() {
               
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <span onClick={() => navigate(`/student/${localStorage.getItem("id")}`)} style={{cursor:"pointer",marginBottom:"1rem"}}>Home</span>
+                  <span onClick={() => navigate(`/Quiz-Main/student/${localStorage.getItem("id")}`)} style={{cursor:"pointer",marginBottom:"1rem"}}>Home</span>
                   
                   
                 </Nav>

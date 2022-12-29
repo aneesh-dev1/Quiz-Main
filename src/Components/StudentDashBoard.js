@@ -70,7 +70,7 @@ const StudentDashBoard = () => {
       }
       api.post("/student/validQuiz", { id }).then((res) => {
         navigate(
-          `/quiz/quizdescription/${res.data.msg._id}/${res.data.msg.quizName}`,
+          `/Quiz-Main/quiz/quizdescription/${res.data.msg._id}/${res.data.msg.quizName}`,
           {
             state: {
               id: res.data.msg._id,

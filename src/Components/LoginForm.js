@@ -36,7 +36,7 @@ const LoginForm = () => {
           localStorage.setItem("role",role);
           setTimeout(() => {
             if(role === "admin"){
-              navigate("/admin/dashboard");
+              navigate("/Quiz-Main/admin/dashboard");
             }
             else if(role === "student"){
               if(res.data.blocked){
@@ -44,7 +44,7 @@ const LoginForm = () => {
                 setLoading(false)
               }
               else{
-                navigate(`/student/${userId}`)
+                navigate(`/Quiz-Main/student/${userId}`)
               }
             }
           },2000)

@@ -1,4 +1,3 @@
-
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -11,7 +10,7 @@ function SubNav() {
     const navigate= useNavigate();
     const handleLogout = async() => {
       await localStorage.clear()
-      navigate("/");
+      navigate("/Quiz-Main/");
     }
   return (
     <>
@@ -34,11 +33,11 @@ function SubNav() {
               
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <span onClick={() => navigate("/admin/dashboard")} style={{cursor:"pointer",marginBottom:"1rem"}}>Home</span>
-                  <span onClick={() => navigate("/admin/seeAllStudents")} style={{cursor:"pointer",marginBottom:"1rem"}}>See All Students</span>
-                  <span onClick={() => navigate("/admin/blockStudent")} style={{cursor:"pointer",marginBottom:"1rem"}}>Block a Student</span>
-                  <span onClick={() => navigate("/admin/unblockStudent")} style={{cursor:"pointer",marginBottom:"1rem"}}>Unblock a Student</span>
-                  <span onClick={() => navigate("/admin/seeAllQuizes")} style={{cursor:"pointer",marginBottom:"1rem"}}>See all Quizes</span>
+                  <span onClick={() => navigate("/Quiz-Main/admin/dashboard")} style={{cursor:"pointer",marginBottom:"1rem"}}>Home</span>
+                  <span onClick={() => navigate("/Quiz-Main/admin/seeAllStudents")} style={{cursor:"pointer",marginBottom:"1rem"}}>See All Students</span>
+                  <span onClick={() => navigate("/Quiz-Main/admin/blockStudent")} style={{cursor:"pointer",marginBottom:"1rem"}}>Block a Student</span>
+                  <span onClick={() => navigate("/Quiz-Main/admin/unblockStudent")} style={{cursor:"pointer",marginBottom:"1rem"}}>Unblock a Student</span>
+                  <span onClick={() => navigate("/Quiz-Main/admin/seeAllQuizes")} style={{cursor:"pointer",marginBottom:"1rem"}}>See all Quizes</span>
                   <span onClick={handleLogout} style={{cursor:"pointer",marginBottom:"1rem"}}>Logout</span>
                   
                 </Nav>

@@ -75,13 +75,13 @@ const SeeStudents = () => {
         </tbody>
       </Table>
       <div  style={{width:"80vw",display:"flex",justifyContent:"space-evenly"}}>
-        <Button variant="secondary" onClick={() => navigate("/admin/blockStudent")} >
+        <Button variant="secondary" onClick={() => navigate("/Quiz-Main/admin/blockStudent")} >
           Block Student
         </Button>
         <Button variant="secondary" onClick={() => window.location.reload()} >
           Go Back
         </Button>
-        <Button variant="secondary" onClick={() => navigate("/admin/unblockStudent")} >
+        <Button variant="secondary" onClick={() => navigate("/Quiz-Main/admin/unblockStudent")} >
           Unblock Student
         </Button>
         </div>
