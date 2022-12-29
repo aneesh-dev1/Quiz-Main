@@ -1,0 +1,26 @@
+.zoom {
+    
+    transition: transform .2s; /* Animation */
+    
+  }
+.zoom:hover {
+    transform: scale(1.2);
+    
+  }
+  .introRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+  ul> li{
+    color: #696F79;
+    font-weight: 500;
+    padding: 0.5rem 0;
+  }
+  ol >em > li {
+    color: #696F79;
+    font-weight: 400;
+    padding: 0.3rem 0;
+  }
