@@ -72,7 +72,7 @@ const LoginForm = () => {
     <div className="emailInput">
       <input type="password" placeholder="Enter Password" value={password} onChange={(e) => setPassword(e.target.value)} />
     </div>
-    <span className="forgot" onClick={() => navigate("/change-password")}>Forgot Password? </span>
+    <span className="forgot" onClick={() => navigate("/Quiz-Main/change-password")}>Forgot Password? </span>
     <div className="status">{status}</div>
     
     
